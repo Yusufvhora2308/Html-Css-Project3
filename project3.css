@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 70px;
+    background-color: darkcyan;
+}
+.navigation ul{
+    list-style-type: none;
+}
+.navigation ul li{
+    display: inline-block;
+    margin: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.login{
+    float: right;
+    margin-right: 30px;
+}
+.btn{
+    padding: 5px;
+    text-decoration: none;
+    color:lightcyan;
+    font-size: 1.3rem;
+    line-height: 70px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:darkgrey;
+}
+
+.slider{
+    width: 100%;
+    height: 500px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+.box1{
+    
+    height: 400px;
+    width: 370px;
+    border: 2px solid black;
+    text-align: center;
+}
+.box-img1{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+h5{
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+h1{
+    background-color: lightblue;
+    line-height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+.box-container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.para1{
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+footer{
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.para2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+
+/*  About Us Design */
+.nav2{
+    height: 120px;
+    background-color:darkgrey;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    padding: 45px;
+}
+
+h6{
+    margin: 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.para3{
+    width: 95%;
+    margin: 40px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+/*  History Design */
+.two-para{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 30px;
+}
+.para4{
+    width: 90%;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 5px solid darkgrey;
+}
+.two-para2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 30px;   
+}
+
+/*  Contact Us Design */
+
+.container{
+    width: 850px;
+    height: 500px;
+    border: 2px solid black;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    background-color: aqua;
+    border-radius: 20px;
+}
+.heading-conta{
+    text-align: center;
+    padding: 20px;
+}
+.conta-h2{
+    background-color: black;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.inline1{
+    display: inline-block;
+    margin: 0px 50px;
+    padding: 10px;
+}
+input{
+    width: 100%;
+    height: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+select{
+    width: 133%;
+    padding: 0px 10px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.text{
+    margin: 30px 60px;
+}
+textarea{
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+button{
+    margin: 0px 30%;
+    padding: 10px 120px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 40px;
+    background-color: bisque;
+    color: grey;
+    cursor: pointer;
+}
+button:hover{
+    background-color: wheat;
+    color: white;
+}
+.para5{
+    padding: 0px 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
